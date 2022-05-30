@@ -10,6 +10,7 @@ PS1='[\u@\h \W]\$ '
 
 # defaults
 export EDITOR='nvim'
+export BROWSER='chromium'
 
 # aliases
 alias la='ls -A'
@@ -30,6 +31,17 @@ alias py='/usr/bin/python'
 alias say='espeak'
 alias whothefuckami='whoami'
 alias mitra='/home/aac/scripts/mitra/mitra.py'
+alias nvm-init='source /usr/share/nvm/init-nvm.sh'
+
+export PATH="/home/aac/.local/bin:$PATH"
+
+# android env for react native
+export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+
+
+
 
 
 # >>> conda initialize >>>
